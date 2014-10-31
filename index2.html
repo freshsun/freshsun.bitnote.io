@@ -3,9 +3,7 @@
   <head>
     <meta http-equiv="content-type" content="text/html; charset=utf-8" />
     <meta name="robots" content="noindex" />
-    <meta name="keywords" content="remark,remarkjs,markdown,slideshow,presentation" />
-    <meta name="description" content="A simple, in-browser, markdown-driven slideshow tool." />
-    <title>Remark</title>
+    <title>Bitnote.io</title>
     <style type="text/css">
       @import url(//fonts.googleapis.com/css?family=Droid+Serif);
       @import url(//fonts.googleapis.com/css?family=Yanone+Kaffeesatz);
@@ -141,18 +139,17 @@ layout: false
 
 - programming (java, js, swift, go)
 
-- persistence (nosql, RDBMS, memorydb)
+- persistence (nosql, RDBMS, memoryDB)
 
 - framework
 
 
-  "One ring to rule them all" is out-of-date. Full-stack is the future.
+  "One ring to rule them all" is out-of-date.
+
+  But full-stack is contradictory to simplicity.
 
 
-  But this is contradictory to simplicity.
-
-
-  ### Learning what you need, and learn enough about it to code something valuable.
+  ## Learning what you need, and learn enough about it to code something valuable.
 
 
 ]
@@ -163,17 +160,21 @@ layout: false
 ]
 .right-column[
 
-Polyglot brings problems:
+## Document, Document, Document ##
 
-- Learning curve is steep, not enough document
+Polyglot brings document problems:
 
-- No book available!(not many users or fast development)
+- Web articles might be too many, too few, outdated, hard to find and so on
+
+- Too many books or no book available
 
 - Lack of tutorial or guide on specific topic
 
-- Grammer
+- Not enough hands on community document
 
-- Bug
+- Grammar hard to remember
+
+- Bug between different versions
 
 - Sample app
 
@@ -181,19 +182,26 @@ Polyglot brings problems:
 ---
 ## Consider a typical user case:
 
-- search with key word(tag) on google
+- search with key words (tags) on google
 - check every page returned to see if it is useful
-- find the paragraph which solve the problem on every page
-- try to remember this solution in mind or in a software note
+- find the paragraph which solve the problem
+- try to remember this solution in mind or elsewhere
 - bookmark the webpage to read it later
 
-The user might want to sovle:
-- a rare/new problem, which is solved in a email thread or github issue.
-- a simple linux command or api call, hide in a quite long paragraph.
-- a problem resolved by a brilliant programmer, with solution on his own blog.
+The user might just want to solve:
+- a rare/new problem, which is already solved in an email thread or a github issue.
+- a simple linux command or api call, hidden in a quite long paragraph.
+- a problem already solved by a brilliant programmer, with solution on his own blog.
 - ...
 
-### Google is not just good enough. We have stackoverflow and github and many other services, they just don't work very well on this problem.
+---
+##Solution:
+
+Contribute to community by notes(documents) for later use of yourself and the whole community.
+
+We need tools to use tags for saving and searching notes **Quickly** and **Conveniently**.
+
+google, github, stackoverflow, (searching) and ** bitnote ** (saving and searching)
 
 ---
 template:inverse
@@ -201,11 +209,14 @@ template:inverse
 ## What is Bitnote?
 ---
 .left-column[
+  # Bitnote
 ]
 .right-column[
 Take Bitnote as a merging of Evernote and StackOverflow. (Github, Pocket and others as extensions)
 
-Bitnote removes obstacles for knowledge management and discovery, also connect necessary popular service.
+Bitnote removes obstacles for knowledge management and discovery.
+
+##Experience matters.##
 
 ]
 ---
@@ -214,14 +225,13 @@ Bitnote removes obstacles for knowledge management and discovery, also connect n
   ## Note
 ]
 .right-column[
-Evernote makes no difference among note, memo, bookmark and snippet, Bitnote do.
+Evernote makes no difference among note, memo, bookmark and snippet. For programmers use, Bitnote do.
 
 Note for programmer should have:
 - both RFT and markdown support
 - diagram
 - export to blog or pdf for sharing
 
-8k users paid for an evernote markdown extension within 1 month after it is released.
 ]
 ---
 .left-column[
@@ -233,16 +243,17 @@ Note for programmer should have:
 
 Memo is a kind of note, why make it independent?
 
-- memo should be simple and concise for a straighforward question (cannot longer than a tweet's length)
+- memo should be simple and concise for a straightforward question (cannot longer than a tweet's length)
 - use tags and concise title to organize
-- easy shortcut to create and retrieve, no format
+- shortcut to create and retrieve
+- provide extension on popular websites, like what evernote did to gmail
 - might provide a tool to exact memos from software docs
-- reserved tags for official or community memos
+- reserved tags for official or community use
 - use case: api, one line cli command, bug resolving, tips and tricks
 
-Brain is like cache, but polyglot ruin temporal and spatial locality.
+Brain is like cache, but polyglot ruins temporal and spatial locality.
 
-Memo provide one more level cache, one user share, whole community get.
+Memo provide one more level cache. User shares once then the whole community get, also for his own later use.
 ]
 ---
 .left-column[
@@ -254,9 +265,9 @@ Memo provide one more level cache, one user share, whole community get.
 .right-column[
 
 - integrated with HackerNews and Reddit
-- errate can be added for out-dated or invalid web pages
-- get the popularity and errate conveniently in brower extension
-- Pocket is integrated, user can like/bookmark/readitlater
+- errata can be added for outdated or invalid web pages
+- get the popularity and errata conveniently in browser extension
+- Pocket is integrated, user can like/bookmark/read-it-later
 
 ]
 ---
@@ -268,12 +279,13 @@ Memo provide one more level cache, one user share, whole community get.
   ## Snippet
 ]
 .right-column[
-- currently only an enhancement to github gist, might provide own solution later
+- currently only an enhancement to github gist, might provide our own solution later
 - provide tag support
-- after desktop version is released, add plugin support for popular IDE
+- after desktop version is released, add plugin support for popular IDE and editors
 ]
 
 ---
+class:center, middle
 xkcd-293
 
 ![rtfm](http://imgs.xkcd.com/comics/rtfm.png)
